@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section{
+    justify-content: center;
+    max-height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+}
+/*--------col details-------*/
+.col-1 {
+    width: 8.33%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-2 {
+    width: 16.66%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-3 {
+    width: 25%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-4 {
+    width: 33.33%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-5 {
+    width: 41.66%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-6 {
+    width: 50%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-7 {
+    width: 58.33%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-8 {
+    width: 66.66%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-9 {
+    width: 75%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-10 {
+    width: 83.33%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-11 {
+    width: 91.66%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.col-12 {
+    width: 100%;
+    padding-left:12px;
+    padding-right:12px;
+}
+.container{
+    max-width: 1170px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right:-12px;
+    margin-left: -12px;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/*----------------nav details-----------*/
+.d-flex{
+    display: flex;
+}
+/*--------card details---------*/
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 100px;
+    right: 210px;
+}
+.heading{
+font-family: DM Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.25px;
+letter-spacing: -0.2926828861236572px;
+text-align: center;
+color: #1E0E62;
+
+}
+ul li{
+    
+font-family: DM Sans;
+font-size: 18px;
+line-height: 26px;
+text-align: left;
+color: #15143966;
+ padding: 20px;
+ 
+}
+.icon{
+    position: relative;
+    padding-top: 22px;
+    right: 15px;
+}
+.heading-space{
+    padding-top:50px;
+    margin-left: 130px;
+    margin-right: 145px;
+}
+.top-space{
+    margin-top: 40px;
+}
+.para{
+    
+font-family: DM Sans;
+font-size: 42px;
+line-height: 52px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+color: #1E0E62;
+padding-bottom: 60px;
+
+}
+.input-1{
+    width: 470px;
+height: 60px;
+top: 450px;
+left: 115px;
+border: 2px solid  #15143966;
+border-radius: 30px;
+padding: 20px;
+margin-top: 30px;
+}
+
+.btn-1{
+    width: 470px;
+    height: 60px;
+    top: 450px;
+    left: 115px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    background: #25DAC5;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background: #25DAC5;
+}
+.color{
+    color:white;
+}
+
+.para-1{
+
+font-family: DM Sans;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #15143966;
+padding-top: 17px;
+}
+.para-2{
+
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #15143966;
+padding-top: 30px;
+}
+img{
+    width: 440px;
+height: 265px;
+top: 230px;
+left: 815px;
+}
